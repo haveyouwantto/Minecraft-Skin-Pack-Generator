@@ -7,8 +7,8 @@ from pathlib import Path
 from shutil import copyfile
 import fnmatch
 
-skinfolder=input("皮肤输入文件夹：")#r"C:\Users\havey\Desktop\mcskins\skins"
-outfolder=Path(input('Minecraft皮肤包文件夹：'))#r"C:\Users\havey\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\skin_packs\bigpack")
+skinfolder=input("皮肤输入文件夹：")
+outfolder=Path(input('Minecraft皮肤包文件夹：'))
 name=input('皮肤包名称（仅限英文）：')
 
 lid=hex(random.randint(0,65535))
