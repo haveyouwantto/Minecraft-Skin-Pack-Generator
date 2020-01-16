@@ -78,7 +78,7 @@ def skinconv(skinfolder, outfolder, name, lid):
     ))
     langs.close()
 
-    langtext = open((str(texts)+"/en_US.lang"), "w")
+    langtext = open((str(texts)+"/en_US.lang"), "w",encoding='utf-8')
     print("创建 "+str(langtext))
     langtext.write(('skinpack.'+lid+'='+name+"\n\n"))
 
